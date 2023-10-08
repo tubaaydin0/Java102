@@ -9,7 +9,7 @@ public class Game {
     public  void start(){
         System.out.println("Merhaba yabancı, macera oyununa hoş geldin!!");
         System.out.print("Hazırsan İsminizi yazarak başla!: ");
-        String playerName="tuba";
+        String playerName=inp.nextLine();
         Player player=new Player(playerName);
         System.out.println(player.getpName()+"\nMacera oyununa tekrar hoş geldin, Tehlikelere karşı çok dikkatli olmalısın. BOL ŞANS...");
         player.selectChar();
