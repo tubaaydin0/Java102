@@ -1,2 +1,1 @@
-# Java102
- PatikaUygulama
+Java102 deki projeleri içerir.
