@@ -114,12 +114,8 @@ public class Notebook extends  Products{
                     break;
             }
 
-            System.out.print("Hafızası (64 / 128) : ");
+            System.out.print("Hafızası : ");
             int mem = inp.nextInt();
-            while (!(mem == 64 || mem == 128)) {
-                System.out.print("\nYanlış değer girdiniz.\n64 GB veya 128 GB seçeneklerinden birini seçiniz: ");
-                mem = inp.nextInt();
-            }
 
             System.out.print("Ekran Ölçüsü: ");
             double size = inp.nextDouble();
