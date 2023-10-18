@@ -38,14 +38,12 @@ public  abstract  class Products { // Ürünler Sınıfı
         }
         return 2;
     }
-    abstract public void menu();
-
+    public abstract  void menu();
     public abstract void addElement();
-
-    abstract public void deleteElement();
-    abstract public void filtering();
-    abstract public void firstProductList();
-    abstract public void print();
+    public abstract  void deleteElement();
+    public abstract void filtering();
+    public abstract void firstProductList();
+    public abstract void print();
     public int getId() {
         return id;
     }
